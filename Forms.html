@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="E:\web development\css\style.css">
+    <style>
+        form
+        {
+
+            text-align: center;
+            border-style: solid;
+            border-color: black;
+            background-color: lightgreen;
+            border-width: 5px;
+            width: 500px;
+            padding: 20px 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form</h1><br><br>
+    <hr>
+    <form action="home.html" method="post">
+        <label for="name">Name:</label><br><br>
+        <input type="text" name="username" required/><br><br>
+        <label for="password">Password:</label><br><br>
+        <input type="password" name="user_password" required/><br><br>
+        <label for="gender">Gender:</label><br><br>
+        <input type="radio" name="gender" />Male <input type="radio" name="gender"/>Female<br><br>
+<label for="courses"> Courses:</label><br><br>
+<input type="checkbox"/>Physics <input type="checkbox" />Chemistry <input type="checkbox"/>Maths
+<br><br>
+<label for="color"></label><br><br>
+<input type="color" /><br><br>
+    <input type="submit" /><input type="reset" /><br>
+    </form>
+</body>
+</html>
